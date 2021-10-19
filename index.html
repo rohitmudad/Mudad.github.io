@@ -15,18 +15,34 @@
       <img src="img/logo.png" alt="Education Station">
     </div>
     <ul>
-      <li class="item"> <a href="#">HOME</a>
-      </li>
+      <li class="item"> <a href="#">HOME</a></li>
       <li class="item"><a href="#">CODING</a></li>
       <li class="item"><a href="#">MATH</a></li>
       <li class="item"><a href="#">ABOUT US</a></li>
     </ul>
   </nav>
-  <p>hello</p>
-  <script>
-      let audioElement = new Audio("astro.mp3")
-       audioElement.play();
+  
+<div class="container" onclick="myFunction()" id="hello">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+<ul class="mobile" id="mobile">
+    <li class="item"> <a href="#">HOME</a></li>
+    <li class="item"><a href="#">CODING</a></li>
+    <li class="item"><a href="#">MATH</a></li>
+    <li class="item"><a href="#">ABOUT US</a></li>
+  </ul>
 
-  </script>
+<script>
+function myFunction(){
+var x = document.getElementById("hello")
+var nav = document.getElementById("mobile")
+  x.classList.toggle("change");
+  nav.classList.toggle("change");
+}
+</script>
+ 
+  
 </body>
 </html>
