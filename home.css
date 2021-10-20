@@ -107,6 +107,21 @@ ul .item a{
     transform: translateX(0px);
     
 }
+.section1 h1{
+    font-size: 20px;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 4.5rem;
+}
+.blink{
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{color: red;}
+    25%{color: rgb(47, 0, 255);}
+    50%{color: red;}
+    100%{color: rgb(47, 0, 255);}
+}
 @media only screen and (max-width:507px){
     ul{
         display: none;
