@@ -96,4 +96,7 @@ ul .item a{
     .change{
         display: block;
     }
+    .container:active{
+        background: none;
+    }
 }
