@@ -135,7 +135,7 @@ ul .item a{
     .icons a{
         width: 90px;
         display: flex;
-        transform: translateX(-40px);
+        transform: translateX(-50px);
         text-align: left;
         font-size: 10px;
         text-decoration: none;
