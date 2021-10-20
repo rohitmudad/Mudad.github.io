@@ -132,13 +132,13 @@ ul .item a{
         
     }
     .icons a{
-        width: 130px;
+        width: 90px;
         display: flex;
-        transform: translateX(-85px);
+        transform: translateX(-45px);
         text-align: left;
         font-size: 10px;
         text-decoration: none;
-        padding: 0 10px 0 0;
+        
         background-color: rgb(0, 104, 160);
         margin: 5px 0;
         color: snow;
