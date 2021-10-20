@@ -82,7 +82,7 @@ ul .item a{
     color: white;
 }
 .icons{
-    margin-top: 150px;
+    margin-top: 200px;
     
 }
 .icons a{
@@ -98,13 +98,14 @@ ul .item a{
     color: snow;
     line-height: 30px;
     border-radius: 4px;
+    transition:all 0.5s  linear;
 }
 .icons img{
     margin-left: 10px;
 }
 .icons a:hover{
     transform: translateX(0px);
-    transition: 0.5s  linear;
+    
 }
 @media only screen and (max-width:507px){
     ul{
