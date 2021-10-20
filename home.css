@@ -67,15 +67,17 @@ ul .item a{
     width: 120px;
     background-color: rgb(0, 0, 0);
     margin-top: 10px;
-    margin-right: 100px;
-   /* position: fixed; */
+    margin-right: 700px;
+   position: fixed;
     height: 170px;
     float: right;
+    margin-left: 60px;
 }
 .mobile li{
     float: none;
     padding: 10px 10px 10px  10px;
-    transition: 1s linear;
+    
+    
 }
 .mobile li a{
     font-size: 20px;
