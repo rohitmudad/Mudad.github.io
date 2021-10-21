@@ -100,7 +100,7 @@ ul .item a{
     color: snow;
     line-height: 30px;
     border-radius: 4px;
-    transition:all 0.5s  linear;
+    transition:all 0.2s linear;
 }
 .icons img{
     margin-left: 10px;
@@ -110,7 +110,7 @@ ul .item a{
     
 }
 .section1 h1{
-    font-size: 20px;
+    font-size: 50px;
     align-items: center;
     margin-left: 70px;
     margin-top: 4.5rem;
@@ -123,6 +123,11 @@ ul .item a{
     25%{color: rgb(47, 0, 255);}
     50%{color: red;}
     100%{color: rgb(47, 0, 255);}
+}
+#graphic{
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 800px;
 }
 @media only screen and (max-width:507px){
     ul{
